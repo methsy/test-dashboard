@@ -38,7 +38,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: >-
-            '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEST_DASHBOARD_PRODUCTION 
-            }}'
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEST_DASHBOARD_PRODUCTION 
+            }}
           channelId: live
           projectId: test-dashboard-production
