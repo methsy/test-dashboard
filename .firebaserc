@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "test-dashboard-production"
+    "default": "test-dashboard-production",
+    "staging": "test-dashboard-staging"
   }
 }
