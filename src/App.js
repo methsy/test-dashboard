@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './logo.png'
 
 const App = () => {
   return (
@@ -10,6 +11,11 @@ const App = () => {
       height: '100vh',
       fontFamily: 'roboto',
     }}>
+      <img src={logo} alt="Test Logo" style={{
+        height: '100px',
+        width: '100px',
+        margin: 0
+      }}/>
       <h1 style={{
         color: '#6EC177',
         margin: 0,
